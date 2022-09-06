@@ -1,0 +1,56 @@
+{
+  "config": {
+    "loginConfigurations": [
+      {
+        "targetGroup": "Proxy",
+        "maintenance": false,
+        "maxPlayers": 100,
+        "whitelist": [],
+        "motds": [
+          {
+            "firstLine": "         &cСервер Говно",
+            "secondLine": "              &cСервер Говно",
+            "autoSlot": false,
+            "autoSlotMaxPlayersDistance": 1,
+            "playerInfo": [],
+            "protocolText": null
+          }
+        ],
+        "maintenanceMotds": [
+          {
+            "firstLine": "         &&cСервер Говно",
+            "secondLine": "     &cСервер Говно",
+            "autoSlot": false,
+            "autoSlotMaxPlayersDistance": 1,
+            "playerInfo": [
+              " ",
+              "&cСервер Говно",
+              "&cСервер Говно",
+              " "
+            ],
+            "protocolText": "&cСервер Говно"
+          }
+        ]
+      }
+    ],
+    "tabListConfigurations": [
+      {
+        "targetGroup": "Proxy",
+        "entries": [
+          {
+            "header": " \n &cСервер Говно \n ",
+            "footer": " \n &cСервер Говно \n "
+          }
+        ],
+        "animationsPerSecond": 1.0
+      }
+    ],
+    "messages": {
+      "player-login-full-server": "&cThe network is currently full. You need extra permissions to enter the network",
+      "player-login-not-whitelisted": "&cThe network is currently in maintenance!",
+      "service-start": "&7The service &e%service% &7is &astarting &7on node &e%node%&7...",
+      "service-stop": "&7The service &e%service% &7is &cstopping &7on node &e%node%&7..."
+    },
+    "ingameServiceStartStopMessages": true
+  }
+}
